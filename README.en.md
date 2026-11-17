@@ -228,6 +228,16 @@ After I approve both, automatically prepare all assets, write the code, and rend
 - **Production workflow:** After you approve the script and the preview of the opening 20 seconds with audio, the agent prepares the assets, animation, subtitles, and audio to match the selected style, then renders the full video locally and provides a preview.
 - **Targeted edits:** If you’re unhappy with part of the visuals or audio, ask the AI to adjust just that section while keeping the approved parts.
 
+### Vietnamese 1:30–3:30 hybrid workflow for Antigravity
+
+For a long Vietnamese stickman film with expressive code animation and optional model-generated scenes, follow [AGENTS.md](AGENTS.md). It covers script, voice, captions, scene prompts, rendering, and final review. The separate builder is `scripts/longform_stickman.py`:
+
+```powershell
+python scripts/longform_stickman.py init videos/my_topic --duration 120 --ratio 16:9
+```
+
+Gemini 3.8 Flash can direct and code the film in Antigravity; model-generated scenes require an available video model and are assembled with code scenes by the local builder.
+
 ### Step 3: Create a thumbnail, title, and description
 
 Once you’re happy with the finished video, continue with the [Thumbnail & Publishing Kit](#thumbnail-publishing-kit). Send this to the AI:

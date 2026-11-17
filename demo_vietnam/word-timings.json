@@ -1,0 +1,120 @@
+{
+  "words": [
+    {
+      "word": "Xin",
+      "start": 0.2,
+      "end": 0.494
+    },
+    {
+      "word": "chào",
+      "start": 0.494,
+      "end": 0.885
+    },
+    {
+      "word": "các",
+      "start": 0.885,
+      "end": 1.179
+    },
+    {
+      "word": "bạn.",
+      "start": 1.179,
+      "end": 1.571
+    },
+    {
+      "word": "Hôm",
+      "start": 1.571,
+      "end": 1.864
+    },
+    {
+      "word": "nay",
+      "start": 1.864,
+      "end": 2.158
+    },
+    {
+      "word": "chúng",
+      "start": 2.158,
+      "end": 2.648
+    },
+    {
+      "word": "ta",
+      "start": 2.648,
+      "end": 2.843
+    },
+    {
+      "word": "cùng",
+      "start": 2.843,
+      "end": 3.235
+    },
+    {
+      "word": "tìm",
+      "start": 3.235,
+      "end": 3.529
+    },
+    {
+      "word": "hiểu",
+      "start": 3.529,
+      "end": 3.92
+    },
+    {
+      "word": "cách",
+      "start": 3.92,
+      "end": 4.312
+    },
+    {
+      "word": "làm",
+      "start": 4.312,
+      "end": 4.606
+    },
+    {
+      "word": "video",
+      "start": 4.606,
+      "end": 5.095
+    },
+    {
+      "word": "người",
+      "start": 5.095,
+      "end": 5.585
+    },
+    {
+      "word": "que",
+      "start": 5.585,
+      "end": 5.879
+    },
+    {
+      "word": "tự",
+      "start": 5.879,
+      "end": 6.074
+    },
+    {
+      "word": "động",
+      "start": 6.074,
+      "end": 6.466
+    },
+    {
+      "word": "bằng",
+      "start": 6.466,
+      "end": 6.858
+    },
+    {
+      "word": "trí",
+      "start": 6.858,
+      "end": 7.151
+    },
+    {
+      "word": "tuệ",
+      "start": 7.151,
+      "end": 7.445
+    },
+    {
+      "word": "nhân",
+      "start": 7.445,
+      "end": 7.837
+    },
+    {
+      "word": "tạo.",
+      "start": 7.837,
+      "end": 8.228
+    }
+  ],
+  "method": "proportional_fallback"
+}

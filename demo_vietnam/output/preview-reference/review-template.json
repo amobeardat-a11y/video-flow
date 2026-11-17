@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "style": "B1",
+  "author_id": "vietneu_pipeline",
+  "capability": {
+    "environment": "local_vietnamese",
+    "limitations": [],
+    "mode": "sample_target"
+  },
+  "reviewer": {
+    "id": "",
+    "kind": "agent",
+    "method": "",
+    "independent": false
+  },
+  "video_sha256": "a07837044e9358b080a4b49f52909e149cf3b46e39b7035c1b6d394514c5106d",
+  "evidence_sha256": "aa809953a971da8e806eb6e8df084755260d17d90c5d63dd8cb27b52b6c58832",
+  "full_playback": {
+    "status": "unknown",
+    "viewed_ranges": [],
+    "observations": []
+  },
+  "baseline_comparisons": [
+    {
+      "reference_id": "b1-ryan-v4",
+      "start": null,
+      "end": null,
+      "observations": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-0",
+      "checks": {
+        "drawing_character": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "semantic_acting": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "contact_continuity": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "composition_evidence": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "typography_captions": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "timing_pacing": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "sound": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        }
+      }
+    },
+    {
+      "id": "shot-1",
+      "checks": {
+        "drawing_character": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "semantic_acting": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "contact_continuity": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "composition_evidence": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "typography_captions": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "timing_pacing": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        },
+        "sound": {
+          "status": "unknown",
+          "observations": [],
+          "comparisons": []
+        }
+      }
+    }
+  ],
+  "blocking_issues": [],
+  "limits": [
+    "Hashes, decoded artifacts and complete coverage establish current-media provenance, not aesthetic equivalence.",
+    "Reviewer identity, independence, actual viewing/listening and capability limitations are declarations, not authenticated facts.",
+    "Independent agent review does not imply human approval or user acceptance.",
+    "Sample-target review compares the available approved examples, not identical plots, voices, pixels or unavailable originals.",
+    "B3 endpoint geometry and authored intentions are diagnostics. Each graphic and motion event still needs actual-MP4 independent review; wrong relationships and meaningless motion cannot receive a limited-capability waiver.",
+    "The complete approved Full V4 film is unavailable in this bundle; only sampled long-form compositions are comparable."
+  ]
+}

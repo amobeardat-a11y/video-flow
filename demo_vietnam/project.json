@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "style": "B1",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "font": "../skills/directing-stickman-videos/assets/fonts/NotoSans.ttf",
+  "captionFont": "../skills/directing-stickman-videos/assets/fonts/NotoSans.ttf",
+  "voice": {
+    "path": "narration.wav",
+    "lead": 0,
+    "tail": 0,
+    "contains_sfx": true
+  },
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 1.571,
+      "text": "Xin chào các bạn."
+    },
+    {
+      "start": 1.571,
+      "end": 4.312,
+      "text": "Hôm nay chúng ta cùng tìm hiểu cách"
+    },
+    {
+      "start": 4.312,
+      "end": 7.151,
+      "text": "làm video người que tự động bằng trí"
+    },
+    {
+      "start": 7.151,
+      "end": 8.228,
+      "text": "tuệ nhân tạo."
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 4.412,
+      "layers": [
+        {
+          "id": "actor_shot_0",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Nhân vật chuyển động diễn giải nội dung"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 1.0,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 2.0,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 3.0,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 4.0,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 4.412,
+              "y": 25,
+              "angle": 0.04
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "XIN CHÀO CÁC BẠN.",
+          "x": 90,
+          "y": 120,
+          "size": 48,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "Hôm nay chúng ta cùng tìm hiểu cách",
+          "x": 90,
+          "y": 190,
+          "size": 40,
+          "color": "#EC4338",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "start": 4.412,
+      "end": 8.428,
+      "layers": [
+        {
+          "id": "actor_shot_1",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Nhân vật chuyển động diễn giải nội dung"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 1.0,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 2.0,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 3.0,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 4.016,
+              "y": 35,
+              "angle": -0.04
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "LÀM VIDEO NGƯỜI QUE TỰ ĐỘNG BẰNG TRÍ",
+          "x": 90,
+          "y": 120,
+          "size": 48,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "tuệ nhân tạo.",
+          "x": 90,
+          "y": 190,
+          "size": 40,
+          "color": "#EC4338",
+          "bold": true
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "reference_review": {
+    "author_id": "vietneu_pipeline",
+    "capability": {
+      "mode": "sample_target",
+      "environment": "local_vietnamese",
+      "limitations": []
+    }
+  }
+}

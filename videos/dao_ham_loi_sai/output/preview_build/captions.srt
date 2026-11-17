@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:03,696
+Thuộc bảng công thức, nhưng bài đạo hàm vẫn sai?
+
+2
+00:00:03,766 --> 00:00:06,646
+Có thể bạn học thuộc nhiều hơn là hiểu.
+
+3
+00:00:06,716 --> 00:00:10,076
+Cùng xem sáu lỗi thường gặp và cách sửa.
+
+4
+00:00:10,196 --> 00:00:14,564
+Lỗi đầu tiên: xem đạo hàm như trò thay công thức.
+
+5
+00:00:14,634 --> 00:00:18,282
+Thấy x bình phương, bạn lập tức viết hai x.
+
+6
+00:00:18,352 --> 00:00:20,000
+Nhưng hai x đang nói gì trên đồ thị?

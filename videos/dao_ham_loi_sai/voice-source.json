@@ -1,0 +1,6 @@
+{
+  "service": "gTTS",
+  "language": "vi",
+  "chunks": 60,
+  "alignment": "caption timing from exact concatenated PCM chunks"
+}

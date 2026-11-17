@@ -1,0 +1,15 @@
+{
+  "output": "C:\\Users\\cp\\Downloads\\videomaker\\videos\\dao_ham_loi_sai\\output\\preview.mp4",
+  "duration": 20.0,
+  "target_duration": 20.0,
+  "size": [
+    1280,
+    720
+  ],
+  "scenes": 2,
+  "caption_count": 6,
+  "sha256": "dcc869b49e4428091035e84fbae290632a2403c195a7218bfe0cd5915592db0f",
+  "decode": "pass",
+  "contact_sheet": "C:\\Users\\cp\\Downloads\\videomaker\\videos\\dao_ham_loi_sai\\output\\preview_build\\scene-contact-sheet.jpg",
+  "creative_review": "pending"
+}

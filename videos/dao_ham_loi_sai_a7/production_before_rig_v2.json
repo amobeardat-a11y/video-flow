@@ -1,0 +1,839 @@
+{
+  "version": 1,
+  "ready": true,
+  "title": "Sáu lỗi sai khi học đạo hàm",
+  "language": "vi",
+  "ratio": "16:9",
+  "fps": 30,
+  "character_anchor": "ONE original stickman, drawn as a literal thin-line stick figure. Flat paper-white circular face, two black oval eyes, tiny brows and mouth, exactly two short curved black hair tufts. Head outline directly touches a short black neck. Neck, vertical spine, two arms and two legs are each a SINGLE uniform fine ink stroke, like a pen-drawn stick diagram, about 2 pixels wide at 360p. Background remains visible immediately beside both edges of the narrow spine, even between the shoulders. Two small white outlined hands and two short black curved feet. All joints visibly connected; head size and line width remain constant during bending. Bare line body; no clothing, tie, black filled chest, triangular neck shape or rounded torso.",
+  "narration": "narration.wav",
+  "captions": "captions.json",
+  "sfx": [
+    {
+      "path": "sfx/error.wav",
+      "at": 10.196,
+      "gain": 0.09
+    },
+    {
+      "path": "sfx/error.wav",
+      "at": 42.848,
+      "gain": 0.09
+    },
+    {
+      "path": "sfx/error.wav",
+      "at": 74.348,
+      "gain": 0.09
+    },
+    {
+      "path": "sfx/error.wav",
+      "at": 102.368,
+      "gain": 0.09
+    },
+    {
+      "path": "sfx/error.wav",
+      "at": 140.968,
+      "gain": 0.09
+    },
+    {
+      "path": "sfx/error.wav",
+      "at": 161.096,
+      "gain": 0.09
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_01",
+      "duration": 10.196,
+      "mode": "code",
+      "heading": "THUỘC MÀ VẪN SAI?",
+      "background": "#F8F6F0",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "Thuộc công thức...",
+          "symbol": "question"
+        },
+        {
+          "at": 3.766,
+          "action": "explain",
+          "expression": "surprised",
+          "text": "...nhưng vẫn sai?",
+          "symbol": "question"
+        },
+        {
+          "at": 6.716,
+          "action": "point",
+          "expression": "smile",
+          "text": "Sáu lỗi cần tránh",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "Chỉ học thuộc",
+        "right": "Hiểu rồi mới tính",
+        "reveal_at": 3.766
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_02",
+      "duration": 11.228,
+      "mode": "code",
+      "heading": "LỖI 1: HỌC VẸT",
+      "background": "#F2F6FB",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "Cứ thấy x² là viết 2x",
+          "symbol": "question"
+        },
+        {
+          "at": 4.438,
+          "action": "point",
+          "expression": "open",
+          "text": "Công thức có ý nghĩa gì?",
+          "symbol": "question"
+        },
+        {
+          "at": 8.156,
+          "action": "explain",
+          "expression": "think",
+          "text": "Hãy nhìn đồ thị",
+          "symbol": "arrow"
+        }
+      ],
+      "visual": {
+        "kind": "graph",
+        "function": "square"
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_03",
+      "duration": 10.364,
+      "mode": "code",
+      "heading": "ĐẠO HÀM LÀ ĐỘ DỐC",
+      "background": "#FFF8F1",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "Độ dốc ngay tại điểm",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.238,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Độ lớn độ dốc tăng",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.836,
+          "action": "think",
+          "expression": "think",
+          "text": "Chỗ phẳng => độ dốc 0",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "graph",
+        "function": "square",
+        "tangent_keys": [
+          {
+            "at": 0,
+            "x": 0.4
+          },
+          {
+            "at": 3.238,
+            "x": 0.8
+          },
+          {
+            "at": 6.236,
+            "x": 1.5
+          },
+          {
+            "at": 6.836,
+            "x": 0
+          }
+        ]
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_04",
+      "duration": 11.06,
+      "mode": "code",
+      "heading": "CÁCH SỬA LỖI 1",
+      "background": "#F3F8F4",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "wave",
+          "expression": "smile",
+          "text": "Vẽ đồ thị nhỏ",
+          "symbol": "idea"
+        },
+        {
+          "at": 4.198,
+          "action": "point",
+          "expression": "think",
+          "text": "Đoán chiều dốc",
+          "symbol": "arrow"
+        },
+        {
+          "at": 7.58,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Rồi kiểm đáp án",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "f′(a) = độ dốc tại a",
+          "Dốc lên: dương; dốc xuống: âm"
+        ],
+        "reveal_at": 4.198
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_05",
+      "duration": 10.916,
+      "mode": "code",
+      "heading": "LỖI 2: NHẦM GIÁ TRỊ",
+      "background": "#F8F6F0",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "f(3) và f′(3) khác nhau",
+          "symbol": "question"
+        },
+        {
+          "at": 4.414,
+          "action": "point",
+          "expression": "open",
+          "text": "f(3) = 9",
+          "symbol": "arrow"
+        },
+        {
+          "at": 7.94,
+          "action": "explain",
+          "expression": "think",
+          "text": "9 là độ cao",
+          "symbol": "question"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "f(3) = f′(3)",
+        "right": "Giá trị khác độ dốc",
+        "reveal_at": 4.414
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_06",
+      "duration": 11.18,
+      "mode": "code",
+      "heading": "ĐỘ CAO KHÁC ĐỘ DỐC",
+      "background": "#F2F6FB",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "f′(x) = 2x",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.118,
+          "action": "explain",
+          "expression": "surprised",
+          "text": "f′(3) = 6",
+          "symbol": "idea"
+        },
+        {
+          "at": 6.692,
+          "action": "wave",
+          "expression": "smile",
+          "text": "9 là cao; 6 là dốc",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "f(3) = 3² = 9",
+          "f′(3) = 2 · 3 = 6"
+        ],
+        "reveal_at": 3.118
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_07",
+      "duration": 9.404,
+      "mode": "code",
+      "heading": "TÍNH TẠI MỘT ĐIỂM",
+      "background": "#FFF8F1",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "think",
+          "text": "Có hai bước rõ ràng",
+          "symbol": "clock"
+        },
+        {
+          "at": 3.526,
+          "action": "point",
+          "expression": "open",
+          "text": "Bước 1: tính f′(x)",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.524,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Bước 2: thay x = a",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "f(x) => f′(x)",
+          "f′(x) => f′(a)"
+        ],
+        "reveal_at": 6.524
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_08",
+      "duration": 10.1,
+      "mode": "code",
+      "heading": "LỖI 3: SAI SỐ MŨ",
+      "background": "#F3F8F4",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "Quên giảm số mũ",
+          "symbol": "question"
+        },
+        {
+          "at": 3.91,
+          "action": "point",
+          "expression": "angry",
+          "text": "3x³ là sai",
+          "symbol": "arrow"
+        },
+        {
+          "at": 7.124,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Đúng là 3x²",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "(x³)′ = 3x³",
+        "right": "(x³)′ = 3x²",
+        "reveal_at": 3.91
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_09",
+      "duration": 9.404,
+      "mode": "code",
+      "heading": "QUY TẮC LŨY THỪA",
+      "background": "#F8F6F0",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "Đưa số mũ xuống",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.094,
+          "action": "explain",
+          "expression": "think",
+          "text": "Giảm đi một",
+          "symbol": "clock"
+        },
+        {
+          "at": 5.852,
+          "action": "wave",
+          "expression": "smile",
+          "text": "x⁴ => 4x³",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "(x³)′ = 3x²",
+          "(x⁴)′ = 4x³"
+        ],
+        "reveal_at": 3.094
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_10",
+      "duration": 8.516,
+      "mode": "code",
+      "heading": "HẰNG SỐ THÌ SAO?",
+      "background": "#F2F6FB",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "think",
+          "text": "Số 7 có thay đổi không?",
+          "symbol": "question"
+        },
+        {
+          "at": 2.686,
+          "action": "point",
+          "expression": "surprised",
+          "text": "Không: (7)′ = 0",
+          "symbol": "idea"
+        },
+        {
+          "at": 5.564,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Đường ngang, dốc 0",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "(7)′ = 7",
+        "right": "(7)′ = 0",
+        "reveal_at": 2.686
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_11",
+      "duration": 10.244,
+      "mode": "code",
+      "heading": "LỖI 4: QUÊN LỚP TRONG",
+      "background": "#FFF8F1",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "Có hàm trong hàm",
+          "symbol": "question"
+        },
+        {
+          "at": 3.358,
+          "action": "point",
+          "expression": "open",
+          "text": "Ngoài: lũy thừa ba",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.908,
+          "action": "explain",
+          "expression": "surprised",
+          "text": "Còn phần bên trong!",
+          "symbol": "idea"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "3(2x+1)²",
+        "right": "6(2x+1)²",
+        "reveal_at": 6.908
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_12",
+      "duration": 9.332,
+      "mode": "code",
+      "heading": "QUY TẮC DÂY CHUYỀN",
+      "background": "#F3F8F4",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "think",
+          "text": "Đặt u = 2x + 1",
+          "symbol": "idea"
+        },
+        {
+          "at": 2.614,
+          "action": "point",
+          "expression": "open",
+          "text": "Lớp ngoài: 3u²",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.092,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Nhân thêm u′",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "u = 2x + 1",
+          "(u³)′ = 3u² · u′"
+        ],
+        "reveal_at": 2.614
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_13",
+      "duration": 8.396,
+      "mode": "code",
+      "heading": "ĐỪNG LÀM RƠI SỐ 2",
+      "background": "#F8F6F0",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "u′ = 2",
+          "symbol": "arrow"
+        },
+        {
+          "at": 2.782,
+          "action": "explain",
+          "expression": "surprised",
+          "text": "3 nhân 2 bằng 6",
+          "symbol": "idea"
+        },
+        {
+          "at": 5.66,
+          "action": "wave",
+          "expression": "smile",
+          "text": "Đáp án đủ hệ số",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "u′ = 2",
+          "f′(x)=6(2x+1)²"
+        ],
+        "reveal_at": 2.782
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_14",
+      "duration": 10.628,
+      "mode": "code",
+      "heading": "MẸO NHỚ DÂY CHUYỀN",
+      "background": "#F2F6FB",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Ngoài trước",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.79,
+          "action": "point",
+          "expression": "think",
+          "text": "Trong sau",
+          "symbol": "clock"
+        },
+        {
+          "at": 7.316,
+          "action": "wave",
+          "expression": "smile",
+          "text": "Nhân đủ hệ số",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "[g(x)]³ => 3[g(x)]²",
+          "Rồi nhân thêm g′(x)"
+        ],
+        "reveal_at": 3.79
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_15",
+      "duration": 9.356,
+      "mode": "code",
+      "heading": "LỖI 5: NHẦM QUY TẮC TÍCH",
+      "background": "#FFF8F1",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "(uv)′ = u′v′?",
+          "symbol": "question"
+        },
+        {
+          "at": 3.166,
+          "action": "point",
+          "expression": "angry",
+          "text": "Sai quy tắc tích",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.332,
+          "action": "explain",
+          "expression": "smile",
+          "text": "Cần hai hạng tử",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "(uv)′ = u′v′",
+        "right": "(uv)′ = u′v + uv′",
+        "reveal_at": 3.166
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_16",
+      "duration": 10.772,
+      "mode": "code",
+      "heading": "VÍ DỤ QUY TẮC TÍCH",
+      "background": "#F3F8F4",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "Đạo hàm từng lượt",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.43,
+          "action": "explain",
+          "expression": "think",
+          "text": "Cộng hai hạng tử",
+          "symbol": "idea"
+        },
+        {
+          "at": 7.964,
+          "action": "wave",
+          "expression": "smile",
+          "text": "Không làm rơi phần nào",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "(x² sin x)′",
+          "= 2x sin x + x² cos x"
+        ],
+        "reveal_at": 3.43
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_17",
+      "duration": 10.34,
+      "mode": "code",
+      "heading": "LỖI 6: QUÊN ĐIỂM GÃY",
+      "background": "#F8F6F0",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "worried",
+          "text": "Góc nhọn có độ dốc?",
+          "symbol": "question"
+        },
+        {
+          "at": 3.694,
+          "action": "point",
+          "expression": "surprised",
+          "text": "Nhìn vào x = 0",
+          "symbol": "arrow"
+        },
+        {
+          "at": 6.5,
+          "action": "explain",
+          "expression": "think",
+          "text": "Hai phía khác nhau",
+          "symbol": "question"
+        }
+      ],
+      "visual": {
+        "kind": "graph",
+        "function": "abs"
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_18",
+      "duration": 11.372,
+      "mode": "code",
+      "heading": "KHÔNG CÓ ĐẠO HÀM TẠI 0",
+      "background": "#F2F6FB",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "point",
+          "expression": "open",
+          "text": "Trái: −1",
+          "symbol": "arrow"
+        },
+        {
+          "at": 3.982,
+          "action": "explain",
+          "expression": "surprised",
+          "text": "Phải: +1",
+          "symbol": "arrow"
+        },
+        {
+          "at": 8.492,
+          "action": "think",
+          "expression": "think",
+          "text": "Tại 0: không tồn tại",
+          "symbol": "question"
+        }
+      ],
+      "visual": {
+        "kind": "compare",
+        "wrong": "|x|: f′(0)=0",
+        "right": "f′(0) không tồn tại",
+        "reveal_at": 3.982
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_19",
+      "duration": 10.244,
+      "mode": "code",
+      "heading": "BỐN CÂU HỎI CUỐI",
+      "background": "#FFF8F1",
+      "actor_side": "left",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "think",
+          "text": "1. Độ dốc hợp lý?",
+          "symbol": "question"
+        },
+        {
+          "at": 3.622,
+          "action": "point",
+          "expression": "open",
+          "text": "2. Đúng quy tắc?",
+          "symbol": "question"
+        },
+        {
+          "at": 7.028,
+          "action": "explain",
+          "expression": "smile",
+          "text": "3. Đúng điểm? 4. Khả vi?",
+          "symbol": "check"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "Hiểu => Chọn quy tắc",
+          "Tính => Kiểm tra"
+        ],
+        "reveal_at": 3.622
+      },
+      "style": "a7"
+    },
+    {
+      "id": "scene_20",
+      "duration": 9.236,
+      "mode": "code",
+      "heading": "HỌC ĐẠO HÀM THÔNG MINH",
+      "background": "#F3F8F4",
+      "actor_side": "right",
+      "beats": [
+        {
+          "at": 0.0,
+          "action": "think",
+          "expression": "think",
+          "text": "Lấy một bài cũ",
+          "symbol": "idea"
+        },
+        {
+          "at": 2.974,
+          "action": "point",
+          "expression": "open",
+          "text": "Kiểm theo bốn câu hỏi",
+          "symbol": "arrow"
+        },
+        {
+          "at": 5.948,
+          "action": "wave",
+          "expression": "smile",
+          "text": "Hiểu rồi sẽ nhớ lâu",
+          "symbol": "heart"
+        }
+      ],
+      "visual": {
+        "kind": "formula",
+        "lines": [
+          "Đừng chỉ thuộc công thức.",
+          "Hãy hiểu độ dốc và quy tắc."
+        ],
+        "reveal_at": 2.974
+      },
+      "style": "a7"
+    }
+  ],
+  "style_id": "a7-code",
+  "style_reference": "../../skills/directing-stickman-videos/assets/a7/kitchen.jpg"
+}

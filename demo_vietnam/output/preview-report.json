@@ -1,0 +1,627 @@
+{
+  "fingerprint": "81c6b9ce1fe0c1a964dae38b4a5eb1c78befc9050ca007ca48acf478f2e0497c",
+  "preview_seconds": 8.42839,
+  "output": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\output\\preview.mp4",
+  "output_sha256": "a07837044e9358b080a4b49f52909e149cf3b46e39b7035c1b6d394514c5106d",
+  "original_voice_sha256": "8cb06550492775a0c031f407957bcd748db2532e30b0f1dc9d6247582625e2a3",
+  "original_voice_duration": 8.42839,
+  "voice_rate": "unchanged; leading/trailing padding only",
+  "frames": 253,
+  "duration": 8.433333,
+  "cache_hits": 0,
+  "shot_count": 2,
+  "full_decode": "pass",
+  "caption_count": 4,
+  "human_review": "required; technical checks are not acceptance",
+  "inputs": [
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\narration.wav",
+      "sha256": "8cb06550492775a0c031f407957bcd748db2532e30b0f1dc9d6247582625e2a3"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-contact-sheet.png",
+      "sha256": "0bc85b4c8ca938b01d346fcca9af06e608ea56e6d82ea993860647166b7b530e"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-motion-sheet.png",
+      "sha256": "7bb8664e837e44604387f258522fd2251bac5ddf7347ed02297f211dc45ced73"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23.mp4",
+      "sha256": "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-24-longform-contact-sheet.jpg",
+      "sha256": "18690bd4a1d94cdc611bced722899cd0cae3f3e114120cedc79e0ab717b4c99e"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-baseline.json",
+      "sha256": "8948fb69c87d0b85f3927cd773e6afda47596ea8aeb39d031abc313fb48af2d5"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-production-standard.json",
+      "sha256": "a8ee78a831aaf31f2e37c09d34dbb3da7c8c2abac2b47a7a245843ade191b757"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\character-pose-sheet-v6.png",
+      "sha256": "94b601f640112314965525f49536f87942c577e1e5556a11503b19ed00777bb7"
+    },
+    {
+      "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\fonts\\NotoSans.ttf",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    }
+  ],
+  "local_motion": {
+    "intervals": [
+      {
+        "id": "actor_shot_0",
+        "start": 0,
+        "end": 1,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 25425
+      },
+      {
+        "id": "actor_shot_0",
+        "start": 1,
+        "end": 2,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 25425
+      },
+      {
+        "id": "actor_shot_0",
+        "start": 2,
+        "end": 3,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 25425
+      },
+      {
+        "id": "actor_shot_0",
+        "start": 3,
+        "end": 4,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 25425
+      },
+      {
+        "id": "actor_shot_0",
+        "start": 4,
+        "end": 4.412,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 25425
+      },
+      {
+        "id": "actor_shot_1",
+        "start": 4.412,
+        "end": 5.412,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 28909
+      },
+      {
+        "id": "actor_shot_1",
+        "start": 5.412,
+        "end": 6.412,
+        "reason": "Nhân vật chuyển động diễn giải nội dung",
+        "changed_pixels": 28926
+      }
+    ],
+    "windows": [
+      {
+        "start": 0,
+        "end": 2.25,
+        "id": "actor_shot_0",
+        "changed_pixels": 25425
+      },
+      {
+        "start": 0.25,
+        "end": 2.5,
+        "id": "actor_shot_0",
+        "changed_pixels": 25234
+      },
+      {
+        "start": 0.5,
+        "end": 2.75,
+        "id": "actor_shot_0",
+        "changed_pixels": 23129
+      },
+      {
+        "start": 0.75,
+        "end": 3,
+        "id": "actor_shot_0",
+        "changed_pixels": 16293
+      },
+      {
+        "start": 1,
+        "end": 3.25,
+        "id": "actor_shot_0",
+        "changed_pixels": 25425
+      },
+      {
+        "start": 1.25,
+        "end": 3.5,
+        "id": "actor_shot_0",
+        "changed_pixels": 25203
+      },
+      {
+        "start": 1.5,
+        "end": 3.75,
+        "id": "actor_shot_0",
+        "changed_pixels": 23040
+      },
+      {
+        "start": 1.75,
+        "end": 4,
+        "id": "actor_shot_0",
+        "changed_pixels": 16075
+      },
+      {
+        "start": 2,
+        "end": 4.25,
+        "id": "actor_shot_0",
+        "changed_pixels": 25425
+      },
+      {
+        "start": 2.25,
+        "end": 4.5,
+        "id": "actor_shot_0",
+        "changed_pixels": 25234
+      },
+      {
+        "start": 2.5,
+        "end": 4.75,
+        "id": "actor_shot_0",
+        "changed_pixels": 23129
+      },
+      {
+        "start": 2.75,
+        "end": 5,
+        "id": "actor_shot_0",
+        "changed_pixels": 16293
+      },
+      {
+        "start": 3,
+        "end": 5.25,
+        "id": "actor_shot_0",
+        "changed_pixels": 25425
+      },
+      {
+        "start": 3.25,
+        "end": 5.5,
+        "id": "actor_shot_0",
+        "changed_pixels": 25203
+      },
+      {
+        "start": 3.5,
+        "end": 5.75,
+        "id": "actor_shot_0",
+        "changed_pixels": 23040
+      },
+      {
+        "start": 3.75,
+        "end": 6,
+        "id": "actor_shot_0",
+        "changed_pixels": 16075
+      },
+      {
+        "start": 4,
+        "end": 6.25,
+        "id": "actor_shot_0",
+        "changed_pixels": 25425
+      },
+      {
+        "start": 4.25,
+        "end": 6.5,
+        "id": "actor_shot_0",
+        "changed_pixels": 21382
+      },
+      {
+        "start": 4.5,
+        "end": 6.75,
+        "id": "actor_shot_1",
+        "changed_pixels": 28909
+      },
+      {
+        "start": 4.75,
+        "end": 7,
+        "id": "actor_shot_1",
+        "changed_pixels": 27870
+      },
+      {
+        "start": 5,
+        "end": 7.25,
+        "id": "actor_shot_1",
+        "changed_pixels": 24407
+      },
+      {
+        "start": 5.25,
+        "end": 7.5,
+        "id": "actor_shot_1",
+        "changed_pixels": 11715
+      },
+      {
+        "start": 5.5,
+        "end": 7.75,
+        "id": "actor_shot_1",
+        "changed_pixels": 28926
+      },
+      {
+        "start": 5.75,
+        "end": 8,
+        "id": "actor_shot_1",
+        "changed_pixels": 27826
+      },
+      {
+        "start": 6,
+        "end": 8.25,
+        "id": "actor_shot_1",
+        "changed_pixels": 24272
+      },
+      {
+        "start": 6.17839,
+        "end": 8.42839,
+        "id": "actor_shot_1",
+        "changed_pixels": 16331
+      }
+    ],
+    "sample_step": 0.25,
+    "max_window": 2.25,
+    "limits": "Bounded isolated-layer pixel change, with text/shadows excluded and ancestors frozen; geometry is conservative. Causal action, final visibility/occlusion, semantic captions and sound still require playback review"
+  },
+  "audio_tracks": {
+    "ambience": 0,
+    "dialogue": 0,
+    "file_sfx": 0,
+    "cuts": 0
+  },
+  "reference_review": {
+    "schema": 1,
+    "status": "pending_independent_review",
+    "style": "B1",
+    "output": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\output\\preview.mp4",
+    "output_sha256": "a07837044e9358b080a4b49f52909e149cf3b46e39b7035c1b6d394514c5106d",
+    "project_fingerprint": "81c6b9ce1fe0c1a964dae38b4a5eb1c78befc9050ca007ca48acf478f2e0497c",
+    "project_inputs": {
+      "file": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\project.json",
+      "inputs": [
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\narration.wav",
+          "sha256": "8cb06550492775a0c031f407957bcd748db2532e30b0f1dc9d6247582625e2a3"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-contact-sheet.png",
+          "sha256": "0bc85b4c8ca938b01d346fcca9af06e608ea56e6d82ea993860647166b7b530e"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-motion-sheet.png",
+          "sha256": "7bb8664e837e44604387f258522fd2251bac5ddf7347ed02297f211dc45ced73"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23.mp4",
+          "sha256": "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-24-longform-contact-sheet.jpg",
+          "sha256": "18690bd4a1d94cdc611bced722899cd0cae3f3e114120cedc79e0ab717b4c99e"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-baseline.json",
+          "sha256": "8948fb69c87d0b85f3927cd773e6afda47596ea8aeb39d031abc313fb48af2d5"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-production-standard.json",
+          "sha256": "a8ee78a831aaf31f2e37c09d34dbb3da7c8c2abac2b47a7a245843ade191b757"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\character-pose-sheet-v6.png",
+          "sha256": "94b601f640112314965525f49536f87942c577e1e5556a11503b19ed00777bb7"
+        },
+        {
+          "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\fonts\\NotoSans.ttf",
+          "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+        }
+      ]
+    },
+    "plan_sha256": "0ea10ad38f41e959b9d66f42d75b63522df7f1c09be4f4b5f754f59ae4b01cc0",
+    "scope": {
+      "start": 0,
+      "end": 8.42839
+    },
+    "metadata": {
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "average_fps": 30,
+      "duration": 8.433333,
+      "frames": 253,
+      "frame_timing_sha256": "d18cdfb1d85cdb7f35526214d67c54a02baa3bb36d460d691edab8bf337c3e19",
+      "max_step_error": 6.666666667529131e-7,
+      "video_codec": "h264",
+      "audio": [
+        {
+          "codec": "aac",
+          "sample_rate": 44100,
+          "channels": 1
+        }
+      ]
+    },
+    "plan": {
+      "schema": 1,
+      "style": "B1",
+      "author_id": "vietneu_pipeline",
+      "capability": {
+        "environment": "local_vietnamese",
+        "limitations": [],
+        "mode": "sample_target"
+      },
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "scope_start": 0,
+      "scope_end": 8.42839,
+      "frame_count": 253,
+      "shots": [
+        {
+          "id": "shot-0",
+          "index": 0,
+          "source_id": null,
+          "start": 0,
+          "end": 4.412,
+          "start_frame": 0,
+          "end_frame": 133,
+          "phases": {
+            "start": 0,
+            "mid": 66,
+            "end": 132
+          },
+          "shot_sha256": "411d9540b80ec49113cf40f72b192b80526010f29242a4c9de44e43fa457391f"
+        },
+        {
+          "id": "shot-1",
+          "index": 1,
+          "source_id": null,
+          "start": 4.412,
+          "end": 8.428,
+          "start_frame": 133,
+          "end_frame": 253,
+          "phases": {
+            "start": 133,
+            "mid": 192,
+            "end": 252
+          },
+          "shot_sha256": "f2ce782ce765003ff60b57877d96da4f63ddc01830598ee9a5714637e0f7537e"
+        }
+      ],
+      "caption_sha256": "3528920c208c50d0d71470180d0971a5e62bb6fee0f26912a294f54cb16fef87",
+      "reference_ids": [
+        "b1-ryan-v4",
+        "b1-ryan-contact-sheet",
+        "b1-ryan-motion-sheet",
+        "b1-full-v4-contact-sheet"
+      ],
+      "checks": [
+        "drawing_character",
+        "semantic_acting",
+        "contact_continuity",
+        "composition_evidence",
+        "typography_captions",
+        "timing_pacing",
+        "sound"
+      ],
+      "limits": [
+        "Hashes, decoded artifacts and complete coverage establish current-media provenance, not aesthetic equivalence.",
+        "Reviewer identity, independence, actual viewing/listening and capability limitations are declarations, not authenticated facts.",
+        "Independent agent review does not imply human approval or user acceptance.",
+        "Sample-target review compares the available approved examples, not identical plots, voices, pixels or unavailable originals.",
+        "B3 endpoint geometry and authored intentions are diagnostics. Each graphic and motion event still needs actual-MP4 independent review; wrong relationships and meaningless motion cannot receive a limited-capability waiver.",
+        "The complete approved Full V4 film is unavailable in this bundle; only sampled long-form compositions are comparable."
+      ]
+    },
+    "references": [
+      {
+        "id": "b1-ryan-v4",
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23.mp4",
+        "sha256": "111c241a836a0c26b27df2cbff3ba5697b97460dbb873b68dd2f6eda2383b3fc",
+        "kind": "video",
+        "role": "approved_baseline",
+        "duration": 21.3,
+        "has_audio": true,
+        "required_comparison": true,
+        "limitations": []
+      },
+      {
+        "id": "b1-ryan-contact-sheet",
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-contact-sheet.png",
+        "sha256": "0bc85b4c8ca938b01d346fcca9af06e608ea56e6d82ea993860647166b7b530e",
+        "kind": "image",
+        "role": "approved_baseline",
+        "duration": null,
+        "has_audio": false,
+        "required_comparison": false,
+        "limitations": [
+          "Static sheet cannot demonstrate continuous motion, subtitle timing or listening."
+        ]
+      },
+      {
+        "id": "b1-ryan-motion-sheet",
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-23-motion-sheet.png",
+        "sha256": "7bb8664e837e44604387f258522fd2251bac5ddf7347ed02297f211dc45ced73",
+        "kind": "image",
+        "role": "approved_baseline",
+        "duration": null,
+        "has_audio": false,
+        "required_comparison": false,
+        "limitations": [
+          "Static sheet cannot demonstrate continuous motion, subtitle timing or listening."
+        ]
+      },
+      {
+        "id": "b1-full-v4-contact-sheet",
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-2026-10-24-longform-contact-sheet.jpg",
+        "sha256": "18690bd4a1d94cdc611bced722899cd0cae3f3e114120cedc79e0ab717b4c99e",
+        "kind": "image",
+        "role": "approved_longform_sampled_sheet",
+        "duration": null,
+        "has_audio": false,
+        "required_comparison": false,
+        "limitations": [
+          "Full V4 film is not bundled. This sampled sheet cannot establish continuous long-form motion or audio."
+        ]
+      }
+    ],
+    "reference_manifests": [
+      {
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-baseline.json",
+        "sha256": "8948fb69c87d0b85f3927cd773e6afda47596ea8aeb39d031abc313fb48af2d5"
+      },
+      {
+        "path": "C:\\Users\\cp\\Downloads\\videomaker\\skills\\directing-stickman-videos\\assets\\b1\\approved-production-standard.json",
+        "sha256": "a8ee78a831aaf31f2e37c09d34dbb3da7c8c2abac2b47a7a245843ade191b757"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "shot-0-start",
+        "shot": "shot-0",
+        "type": "png",
+        "phase": "start",
+        "frame_index": 0,
+        "source_time": 0,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-0-start.png",
+        "sha256": "7d59b26bfa0bf5a1bd8aa47889032e5f178aaa96f8d145feb135d14e03f9fb70"
+      },
+      {
+        "id": "shot-0-mid",
+        "shot": "shot-0",
+        "type": "png",
+        "phase": "mid",
+        "frame_index": 66,
+        "source_time": 2.2,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-0-mid.png",
+        "sha256": "029b50f35dba6d1ac6b62a03270800fb9e8b7b97d9ae42e595b5975bc4feb44c"
+      },
+      {
+        "id": "shot-0-end",
+        "shot": "shot-0",
+        "type": "png",
+        "phase": "end",
+        "frame_index": 132,
+        "source_time": 4.4,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-0-end.png",
+        "sha256": "a1dae85202aa5c64744180af7cdb25e6de30d46ce4f0e2eb922febc5f3295c6c"
+      },
+      {
+        "id": "shot-0-continuous",
+        "shot": "shot-0",
+        "type": "clip",
+        "start_frame": 0,
+        "end_frame": 133,
+        "source_start": 0,
+        "source_end": 4.433333,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "audio": "source",
+        "file": "shot-0-continuous.mp4",
+        "sha256": "543e24b37390197f08c97e745dccfc2deb2a3645e329913bd4f59270895ca1f6"
+      },
+      {
+        "id": "shot-1-start",
+        "shot": "shot-1",
+        "type": "png",
+        "phase": "start",
+        "frame_index": 133,
+        "source_time": 4.433333,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-1-start.png",
+        "sha256": "49eaff219388001a75e837036cdd2ce5b43faf00c3307380ec847d6b5ac9dcfc"
+      },
+      {
+        "id": "shot-1-mid",
+        "shot": "shot-1",
+        "type": "png",
+        "phase": "mid",
+        "frame_index": 192,
+        "source_time": 6.4,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-1-mid.png",
+        "sha256": "b1e9007e9ccd7d68cc3ffe885d827923a61a0512bcd83a81669047cb95f5e95a"
+      },
+      {
+        "id": "shot-1-end",
+        "shot": "shot-1",
+        "type": "png",
+        "phase": "end",
+        "frame_index": 252,
+        "source_time": 8.4,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "file": "shot-1-end.png",
+        "sha256": "0cd3c5ebb163dedcb894216a0a7180583e645ae49ea45476946dc36b9d2bc66c"
+      },
+      {
+        "id": "shot-1-continuous",
+        "shot": "shot-1",
+        "type": "clip",
+        "start_frame": 133,
+        "end_frame": 253,
+        "source_start": 4.433333,
+        "source_end": 8.433333,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "audio": "source",
+        "file": "shot-1-continuous.mp4",
+        "sha256": "bbf3a40e0b1e1aff2445e187a86865d49d5576a1e65066733afceef07c3371da"
+      }
+    ],
+    "evidence_dir": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\output\\preview-reference",
+    "ledger_file": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\output\\preview-reference\\evidence.json",
+    "template_file": "C:\\Users\\cp\\Downloads\\videomaker\\demo_vietnam\\output\\preview-reference\\review-template.json",
+    "limits": [
+      "Hashes, decoded artifacts and complete coverage establish current-media provenance, not aesthetic equivalence.",
+      "Reviewer identity, independence, actual viewing/listening and capability limitations are declarations, not authenticated facts.",
+      "Independent agent review does not imply human approval or user acceptance.",
+      "Sample-target review compares the available approved examples, not identical plots, voices, pixels or unavailable originals.",
+      "B3 endpoint geometry and authored intentions are diagnostics. Each graphic and motion event still needs actual-MP4 independent review; wrong relationships and meaningless motion cannot receive a limited-capability waiver.",
+      "The complete approved Full V4 film is unavailable in this bundle; only sampled long-form compositions are comparable."
+    ]
+  },
+  "visual_acceptance": "pending_independent_review",
+  "delivery_ready": false
+}

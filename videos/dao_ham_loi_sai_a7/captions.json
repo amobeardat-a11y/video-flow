@@ -1,0 +1,302 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.696,
+    "text": "Thuộc bảng công thức, nhưng bài đạo hàm vẫn sai?"
+  },
+  {
+    "start": 3.766,
+    "end": 6.646,
+    "text": "Có thể bạn học thuộc nhiều hơn là hiểu."
+  },
+  {
+    "start": 6.716,
+    "end": 10.076,
+    "text": "Cùng xem sáu lỗi thường gặp và cách sửa."
+  },
+  {
+    "start": 10.196,
+    "end": 14.564,
+    "text": "Lỗi đầu tiên: xem đạo hàm như trò thay công thức."
+  },
+  {
+    "start": 14.634,
+    "end": 18.282,
+    "text": "Thấy x bình phương, bạn lập tức viết hai x."
+  },
+  {
+    "start": 18.352,
+    "end": 21.304,
+    "text": "Nhưng hai x đang nói gì trên đồ thị?"
+  },
+  {
+    "start": 21.424,
+    "end": 24.592,
+    "text": "Đạo hàm cho biết độ dốc tại một điểm."
+  },
+  {
+    "start": 24.662,
+    "end": 28.19,
+    "text": "Đường cong càng dốc, độ lớn càng cao."
+  },
+  {
+    "start": 28.26,
+    "end": 31.668,
+    "text": "Ở chỗ phẳng, độ dốc có thể bằng không."
+  },
+  {
+    "start": 31.788,
+    "end": 35.916,
+    "text": "Khi học quy tắc, hãy vẽ một đồ thị đơn giản."
+  },
+  {
+    "start": 35.986,
+    "end": 39.298,
+    "text": "Đoán chiều dốc trước khi tính ra kết quả."
+  },
+  {
+    "start": 39.368,
+    "end": 42.728,
+    "text": "Cách đó giúp bạn nhận ra dấu sai nhanh hơn."
+  },
+  {
+    "start": 42.848,
+    "end": 47.192,
+    "text": "Lỗi hai: lẫn giá trị hàm với giá trị đạo hàm."
+  },
+  {
+    "start": 47.262,
+    "end": 50.718,
+    "text": "Với hàm x bình phương, thay ba được chín."
+  },
+  {
+    "start": 50.788,
+    "end": 53.644,
+    "text": "Chín là độ cao, chưa phải độ dốc."
+  },
+  {
+    "start": 53.764,
+    "end": 56.812,
+    "text": "Đạo hàm của x bình phương là hai x."
+  },
+  {
+    "start": 56.882,
+    "end": 60.386,
+    "text": "Tại x bằng ba, độ dốc bằng sáu."
+  },
+  {
+    "start": 60.456,
+    "end": 64.824,
+    "text": "Nhớ nhé: chín là vị trí, sáu là độ nghiêng."
+  },
+  {
+    "start": 64.944,
+    "end": 68.4,
+    "text": "Muốn tìm đạo hàm tại điểm, làm hai bước."
+  },
+  {
+    "start": 68.47,
+    "end": 71.398,
+    "text": "Trước tiên, tính đạo hàm tổng quát."
+  },
+  {
+    "start": 71.468,
+    "end": 74.228,
+    "text": "Sau đó mới thay tọa độ điểm vào."
+  },
+  {
+    "start": 74.348,
+    "end": 78.188,
+    "text": "Lỗi ba: giữ nguyên số mũ sau khi đạo hàm."
+  },
+  {
+    "start": 78.258,
+    "end": 81.402,
+    "text": "X mũ ba không thành ba x mũ ba."
+  },
+  {
+    "start": 81.472,
+    "end": 84.328,
+    "text": "Số mũ phải giảm đúng một đơn vị."
+  },
+  {
+    "start": 84.448,
+    "end": 87.472,
+    "text": "Đưa số mũ xuống làm hệ số phía trước."
+  },
+  {
+    "start": 87.542,
+    "end": 90.23,
+    "text": "Rồi giảm số mũ của x đi một."
+  },
+  {
+    "start": 90.3,
+    "end": 93.732,
+    "text": "Vậy x mũ bốn cho ra bốn x mũ ba."
+  },
+  {
+    "start": 93.852,
+    "end": 96.468,
+    "text": "Còn một trường hợp rất dễ quên."
+  },
+  {
+    "start": 96.538,
+    "end": 99.346,
+    "text": "Đạo hàm của hằng số bảy là không."
+  },
+  {
+    "start": 99.416,
+    "end": 102.248,
+    "text": "Đường thẳng ngang có độ dốc bằng không."
+  },
+  {
+    "start": 102.368,
+    "end": 105.656,
+    "text": "Lỗi bốn: quên đạo hàm phần bên trong."
+  },
+  {
+    "start": 105.726,
+    "end": 109.206,
+    "text": "Xét cả ngoặc hai x cộng một, mũ ba."
+  },
+  {
+    "start": 109.276,
+    "end": 112.492,
+    "text": "Dừng ở ba nhân ngoặc bình phương là chưa đủ."
+  },
+  {
+    "start": 112.612,
+    "end": 115.156,
+    "text": "Đặt u bằng hai x cộng một."
+  },
+  {
+    "start": 115.226,
+    "end": 118.634,
+    "text": "Đạo hàm u mũ ba là ba u bình phương."
+  },
+  {
+    "start": 118.704,
+    "end": 121.824,
+    "text": "Nhưng còn phải nhân thêm đạo hàm của u."
+  },
+  {
+    "start": 121.944,
+    "end": 124.656,
+    "text": "Đạo hàm của u ở đây là hai."
+  },
+  {
+    "start": 124.726,
+    "end": 127.534,
+    "text": "Vậy đáp án đúng có hệ số sáu."
+  },
+  {
+    "start": 127.604,
+    "end": 130.22,
+    "text": "Đó chính là quy tắc dây chuyền."
+  },
+  {
+    "start": 130.34,
+    "end": 134.06,
+    "text": "Mẹo nhớ: lớp ngoài trước, lớp trong sau."
+  },
+  {
+    "start": 134.13,
+    "end": 137.586,
+    "text": "Nếu bên trong chỉ là x, hệ số là một."
+  },
+  {
+    "start": 137.656,
+    "end": 140.848,
+    "text": "Nếu là hai x, đừng làm rơi số hai."
+  },
+  {
+    "start": 140.968,
+    "end": 144.064,
+    "text": "Lỗi năm: nhân hai đạo hàm với nhau."
+  },
+  {
+    "start": 144.134,
+    "end": 147.23,
+    "text": "Đây là một phép biến đổi sai phổ biến."
+  },
+  {
+    "start": 147.3,
+    "end": 150.204,
+    "text": "Đạo hàm của tích cần hai hạng tử."
+  },
+  {
+    "start": 150.324,
+    "end": 153.684,
+    "text": "Đạo hàm x bình phương nhân sin x sẽ là:"
+  },
+  {
+    "start": 153.754,
+    "end": 158.218,
+    "text": "Hai x nhân sin x, cộng x bình phương cos x."
+  },
+  {
+    "start": 158.288,
+    "end": 160.976,
+    "text": "Đừng chỉ giữ một trong hai phần ấy."
+  },
+  {
+    "start": 161.096,
+    "end": 164.72,
+    "text": "Lỗi sáu: tưởng đồ thị nào cũng có đạo hàm."
+  },
+  {
+    "start": 164.79,
+    "end": 167.526,
+    "text": "Giá trị tuyệt đối có một góc nhọn."
+  },
+  {
+    "start": 167.596,
+    "end": 171.316,
+    "text": "Tại x bằng không, hai phía dốc khác nhau."
+  },
+  {
+    "start": 171.436,
+    "end": 175.348,
+    "text": "Bên trái dốc âm một, bên phải dốc dương một."
+  },
+  {
+    "start": 175.418,
+    "end": 179.858,
+    "text": "Hai giới hạn không khớp, nên đạo hàm không tồn tại."
+  },
+  {
+    "start": 179.928,
+    "end": 182.688,
+    "text": "Đừng áp dụng công thức tại điểm gãy."
+  },
+  {
+    "start": 182.808,
+    "end": 186.36,
+    "text": "Trước khi chốt đáp án, tự hỏi bốn điều."
+  },
+  {
+    "start": 186.43,
+    "end": 189.766,
+    "text": "Độ dốc có hợp lý? Quy tắc đã đúng?"
+  },
+  {
+    "start": 189.836,
+    "end": 192.932,
+    "text": "Đã thay đúng điểm, và hàm có khả vi?"
+  },
+  {
+    "start": 193.052,
+    "end": 195.956,
+    "text": "Chọn một bài cũ bạn từng làm sai."
+  },
+  {
+    "start": 196.026,
+    "end": 198.93,
+    "text": "Soi lại bằng bốn câu hỏi vừa rồi."
+  },
+  {
+    "start": 199.0,
+    "end": 202.168,
+    "text": "Hiểu bản chất giúp nhớ công thức lâu hơn."
+  }
+]

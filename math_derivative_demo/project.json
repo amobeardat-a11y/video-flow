@@ -1,0 +1,1534 @@
+{
+  "version": 1,
+  "style": "B1",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "font": "../skills/directing-stickman-videos/assets/fonts/NotoSans.ttf",
+  "captionFont": "../skills/directing-stickman-videos/assets/fonts/NotoSans.ttf",
+  "voice": {
+    "path": "narration.wav",
+    "lead": 0,
+    "tail": 0,
+    "contains_sfx": true
+  },
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 4.0,
+      "text": "Bạn có đang học đạo hàm như một cái máy?"
+    },
+    {
+      "start": 4.1,
+      "end": 8.2,
+      "text": "Sai lầm lớn nhất là cắm đầu học vẹt công thức."
+    },
+    {
+      "start": 8.3,
+      "end": 12.5,
+      "text": "Thực chất đạo hàm không hề phức tạp như bạn nghĩ."
+    },
+    {
+      "start": 12.6,
+      "end": 16.8,
+      "text": "Nó đo lường tốc độ biến đổi tức thời tại một thời điểm."
+    },
+    {
+      "start": 16.9,
+      "end": 21.2,
+      "text": "Khi khoảng thời gian xét tiến dần về không."
+    },
+    {
+      "start": 21.3,
+      "end": 25.8,
+      "text": "Ví dụ khi lái xe, quãng đường chia thời gian là vận tốc."
+    },
+    {
+      "start": 25.9,
+      "end": 30.2,
+      "text": "Kim đồng hồ chỉ đúng 60 km/h tại giây thứ năm."
+    },
+    {
+      "start": 30.3,
+      "end": 35.0,
+      "text": "Đó chính là đạo hàm của chuyển động theo thời gian."
+    },
+    {
+      "start": 35.1,
+      "end": 40.5,
+      "text": "Về mặt hình học, phóng to đường cong vô hạn lần,"
+    },
+    {
+      "start": 40.6,
+      "end": 46.0,
+      "text": "Độ dốc của đường tiếp tuyến đó chính là đạo hàm!"
+    },
+    {
+      "start": 46.1,
+      "end": 50.0,
+      "text": "Muốn học chuẩn, hãy bắt đầu từ sự trực quan."
+    },
+    {
+      "start": 50.1,
+      "end": 53.67,
+      "text": "Hiểu bản chất trước, công thức tự khắc dễ nhớ!"
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "layers": [
+        {
+          "id": "s1_actor",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que bước vào và suy nghĩ"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 800,
+              "y": 45,
+              "angle": 0.06
+            },
+            {
+              "t": 1.2,
+              "x": 680,
+              "y": 35,
+              "angle": -0.04
+            },
+            {
+              "t": 2.5,
+              "x": 670,
+              "y": 30,
+              "angle": 0.03
+            },
+            {
+              "t": 3.998,
+              "x": 680,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "BẠN CÓ ĐANG HỌC ĐẠO HÀM...",
+          "x": 90,
+          "y": 110,
+          "size": 46,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "...NHƯ MỘT CÁI MÁY?",
+          "x": 90,
+          "y": 180,
+          "size": 52,
+          "bold": true,
+          "color": "#EC4338",
+          "from": 1.0
+        },
+        {
+          "id": "s1_question",
+          "type": "text",
+          "text": "???",
+          "x": 450,
+          "y": 280,
+          "size": 90,
+          "bold": true,
+          "color": "#EC4338",
+          "from": 1.2
+        },
+        {
+          "id": "s1_line",
+          "type": "line",
+          "points": [
+            [
+              90,
+              250
+            ],
+            [
+              580,
+              250
+            ]
+          ],
+          "color": "#EC4338",
+          "lineWidth": 5,
+          "from": 1.5,
+          "motion": {
+            "role": "information",
+            "reason": "Nét gạch chân cảnh báo vẽ dần"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 1.2,
+              "progress": 1.0
+            },
+            {
+              "t": 2.5,
+              "progress": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 4.0,
+      "end": 8.2,
+      "layers": [
+        {
+          "id": "s2_actor",
+          "type": "pose",
+          "pose": 2,
+          "x": 700,
+          "y": 30,
+          "w": 450,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que ôm đầu bối rối trước đống công thức"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 45,
+              "angle": -0.05
+            },
+            {
+              "t": 1.2,
+              "y": 25,
+              "angle": 0.05
+            },
+            {
+              "t": 2.4,
+              "y": 40,
+              "angle": -0.03
+            },
+            {
+              "t": 4.198,
+              "y": 30,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "SAI LẦM PHỔ BIẾN:",
+          "x": 90,
+          "y": 90,
+          "size": 42,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "HỌC VẸT BẢNG CÔNG THỨC!",
+          "x": 90,
+          "y": 150,
+          "size": 46,
+          "bold": true,
+          "color": "#EC4338"
+        },
+        {
+          "id": "s2_paper",
+          "type": "image",
+          "path": "@b1/script-page-crayon.png",
+          "x": 90,
+          "y": 240,
+          "w": 180,
+          "motion": {
+            "role": "prop",
+            "reason": "Tờ giấy công thức rơi xuống"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 180,
+              "angle": -0.1
+            },
+            {
+              "t": 0.8,
+              "y": 240,
+              "angle": 0.05
+            },
+            {
+              "t": 2.0,
+              "y": 235,
+              "angle": -0.03
+            },
+            {
+              "t": 4.198,
+              "y": 240,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "id": "s2_formula",
+          "type": "image",
+          "path": "formulas/shot1.png",
+          "x": 280,
+          "y": 260,
+          "w": 380,
+          "from": 0.6,
+          "motion": {
+            "role": "information",
+            "reason": "Bảng phấn công thức bay vào"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 350,
+              "w": 320
+            },
+            {
+              "t": 1.0,
+              "x": 280,
+              "w": 380
+            },
+            {
+              "t": 3.599999999999999,
+              "x": 280,
+              "w": 380
+            }
+          ]
+        },
+        {
+          "id": "s2_cross1",
+          "type": "line",
+          "points": [
+            [
+              280,
+              270
+            ],
+            [
+              640,
+              420
+            ]
+          ],
+          "color": "#D93025",
+          "lineWidth": 6,
+          "from": 2.0,
+          "motion": {
+            "role": "information",
+            "reason": "Nét gạch chéo đỏ thứ nhất"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.5,
+              "progress": 1.0
+            },
+            {
+              "t": 2.1999999999999993,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "id": "s2_cross2",
+          "type": "line",
+          "points": [
+            [
+              640,
+              270
+            ],
+            [
+              280,
+              420
+            ]
+          ],
+          "color": "#D93025",
+          "lineWidth": 6,
+          "from": 2.4,
+          "motion": {
+            "role": "information",
+            "reason": "Nét gạch chéo đỏ thứ hai"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.5,
+              "progress": 1.0
+            },
+            {
+              "t": 1.7999999999999994,
+              "progress": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 8.2,
+      "end": 12.5,
+      "layers": [
+        {
+          "id": "s3_actor",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que thắc mắc bản chất"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 680,
+              "angle": 0.04
+            },
+            {
+              "t": 1.5,
+              "x": 660,
+              "angle": -0.04
+            },
+            {
+              "t": 2.8,
+              "x": 680,
+              "angle": 0.03
+            },
+            {
+              "t": 4.298,
+              "x": 680,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "HÃY TỰ HỎI BẢN THÂN:",
+          "x": 90,
+          "y": 100,
+          "size": 42,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "ĐẠO HÀM THỰC SỰ LÀ GÌ?",
+          "x": 90,
+          "y": 160,
+          "size": 52,
+          "bold": true,
+          "color": "#1A73E8"
+        },
+        {
+          "id": "s3_arrow",
+          "type": "arrow",
+          "x": 100,
+          "y": 350,
+          "w": 380,
+          "color": "#1A73E8",
+          "motion": {
+            "role": "information",
+            "reason": "Mũi tên dẫn hướng suy nghĩ"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 1.2,
+              "progress": 1.0
+            },
+            {
+              "t": 4.298,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "KHÔNG PHẢI PHÉP THUẬT!",
+          "x": 100,
+          "y": 270,
+          "size": 40,
+          "bold": true,
+          "color": "#188038",
+          "from": 1.2
+        }
+      ]
+    },
+    {
+      "start": 12.5,
+      "end": 16.8,
+      "layers": [
+        {
+          "id": "s4_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que phát hiện ra chân lý"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 50,
+              "angle": -0.05
+            },
+            {
+              "t": 1.0,
+              "y": 25,
+              "angle": 0.05
+            },
+            {
+              "t": 2.2,
+              "y": 40,
+              "angle": -0.03
+            },
+            {
+              "t": 4.298,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "BẢN CHẤT CỰC KỲ ĐƠN GIẢN:",
+          "x": 90,
+          "y": 90,
+          "size": 40,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "TỐC ĐỘ BIẾN ĐỔI TỨC THỜI!",
+          "x": 90,
+          "y": 150,
+          "size": 48,
+          "bold": true,
+          "color": "#188038"
+        },
+        {
+          "id": "s4_bulb",
+          "type": "image",
+          "path": "@b1/idea-bulb-crayon.png",
+          "x": 100,
+          "y": 240,
+          "w": 180,
+          "motion": {
+            "role": "prop",
+            "reason": "Bóng đèn ý tưởng bừng sáng nở rộng"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "w": 100,
+              "angle": -0.1
+            },
+            {
+              "t": 0.8,
+              "w": 200,
+              "angle": 0.06
+            },
+            {
+              "t": 1.6,
+              "w": 180,
+              "angle": -0.02
+            },
+            {
+              "t": 4.298,
+              "w": 180,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "MỌI THỨ ĐANG ĐỔI NHANH CỠ NÀO?",
+          "x": 100,
+          "y": 450,
+          "size": 36,
+          "bold": true,
+          "color": "#1A1A1A",
+          "from": 1.0
+        }
+      ]
+    },
+    {
+      "start": 16.8,
+      "end": 21.2,
+      "layers": [
+        {
+          "id": "s5_actor",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que tập trung vào công thức phân số"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 700,
+              "angle": 0.04
+            },
+            {
+              "t": 1.5,
+              "x": 670,
+              "angle": -0.04
+            },
+            {
+              "t": 4.398,
+              "x": 680,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "KHOẢNH KHẮC VÔ CÙNG NHỎ:",
+          "x": 90,
+          "y": 90,
+          "size": 40,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "KHI Δx TIẾN TỚI 0",
+          "x": 90,
+          "y": 150,
+          "size": 48,
+          "bold": true,
+          "color": "#1A73E8"
+        },
+        {
+          "id": "s5_formula",
+          "type": "image",
+          "path": "formulas/shot2.png",
+          "x": 90,
+          "y": 240,
+          "w": 420,
+          "motion": {
+            "role": "information",
+            "reason": "Công thức giới hạn trượt lên"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 300,
+              "w": 360
+            },
+            {
+              "t": 1.0,
+              "y": 240,
+              "w": 420
+            },
+            {
+              "t": 4.398,
+              "y": 240,
+              "w": 420
+            }
+          ]
+        },
+        {
+          "id": "s5_arrow",
+          "type": "arrow",
+          "x": 120,
+          "y": 420,
+          "w": 280,
+          "color": "#188038",
+          "from": 1.2,
+          "motion": {
+            "role": "information",
+            "reason": "Mũi tên chỉ vào mẫu số tiến tới 0"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 3.1999999999999984,
+              "progress": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 21.2,
+      "end": 25.8,
+      "layers": [
+        {
+          "id": "s6_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que liên tưởng tới lái xe"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 40,
+              "angle": -0.04
+            },
+            {
+              "t": 1.5,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 4.598,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "HÃY TƯỞNG TƯỢNG:",
+          "x": 90,
+          "y": 90,
+          "size": 42,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "BẠN ĐANG LÁI XE TRÊN ĐƯỜNG",
+          "x": 90,
+          "y": 140,
+          "size": 46,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "id": "s6_gemini_car",
+          "type": "image",
+          "path": "gemini_car_card.png",
+          "x": 80,
+          "y": 205,
+          "w": 530,
+          "motion": {
+            "role": "prop",
+            "reason": "Phân cảnh xe chạy tạo bởi Gemini AI phóng to"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 60,
+              "w": 480,
+              "angle": -0.03
+            },
+            {
+              "t": 1.5,
+              "x": 90,
+              "w": 540,
+              "angle": 0.02
+            },
+            {
+              "t": 4.55,
+              "x": 80,
+              "w": 530,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "[AI] XE CHAY TRÊN DUONG (GEMINI)",
+          "x": 90,
+          "y": 510,
+          "size": 32,
+          "bold": true,
+          "color": "#1A73E8",
+          "from": 0.6
+        }
+      ]
+    },
+    {
+      "start": 25.8,
+      "end": 30.2,
+      "layers": [
+        {
+          "id": "s7_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que chỉ vào đồng hồ xe"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 45,
+              "angle": -0.05
+            },
+            {
+              "t": 1.2,
+              "y": 25,
+              "angle": 0.05
+            },
+            {
+              "t": 4.398,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "TẠI GIÂY THỨ 5:",
+          "x": 90,
+          "y": 90,
+          "size": 40,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "KIM ĐỒNG HỒ CHỈ ĐÚNG 60 KM/H",
+          "x": 90,
+          "y": 140,
+          "size": 44,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "id": "s7_formula",
+          "type": "image",
+          "path": "formulas/shot3.png",
+          "x": 90,
+          "y": 220,
+          "w": 480,
+          "motion": {
+            "role": "information",
+            "reason": "Giấy note công thức dán vào màn hình"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "x": 50,
+              "angle": -0.06
+            },
+            {
+              "t": 0.8,
+              "x": 90,
+              "angle": 0.03
+            },
+            {
+              "t": 4.398,
+              "x": 90,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "id": "s7_underline",
+          "type": "line",
+          "points": [
+            [
+              90,
+              360
+            ],
+            [
+              540,
+              360
+            ]
+          ],
+          "color": "#D93025",
+          "lineWidth": 6,
+          "from": 1.0,
+          "motion": {
+            "role": "information",
+            "reason": "Nét gạch chân quét qua"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 3.3999999999999986,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "=> VẬN TỐC TỨC THỜI LÀ ĐẠO HÀM!",
+          "x": 90,
+          "y": 390,
+          "size": 38,
+          "bold": true,
+          "color": "#188038",
+          "from": 1.4
+        }
+      ]
+    },
+    {
+      "start": 30.2,
+      "end": 35.0,
+      "layers": [
+        {
+          "id": "s8_actor",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que chuẩn bị vẽ đồ thị"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 35,
+              "angle": 0.04
+            },
+            {
+              "t": 1.5,
+              "y": 25,
+              "angle": -0.04
+            },
+            {
+              "t": 4.798,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "GÓC NHÌN HÌNH HỌC:",
+          "x": 90,
+          "y": 90,
+          "size": 44,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "PHÓNG TO MỘT ĐƯỜNG CONG...",
+          "x": 90,
+          "y": 150,
+          "size": 40,
+          "color": "#1A73E8"
+        },
+        {
+          "id": "s8_axis_x",
+          "type": "line",
+          "points": [
+            [
+              100,
+              480
+            ],
+            [
+              500,
+              480
+            ]
+          ],
+          "color": "#888888",
+          "lineWidth": 3,
+          "motion": {
+            "role": "information",
+            "reason": "Trục hoành Ox vẽ ra"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 4.798,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "id": "s8_axis_y",
+          "type": "line",
+          "points": [
+            [
+              100,
+              480
+            ],
+            [
+              100,
+              240
+            ]
+          ],
+          "color": "#888888",
+          "lineWidth": 3,
+          "motion": {
+            "role": "information",
+            "reason": "Trục tung Oy vẽ lên"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 4.798,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "x",
+          "x": 510,
+          "y": 465,
+          "size": 32,
+          "bold": true,
+          "color": "#888888",
+          "from": 0.8
+        },
+        {
+          "type": "text",
+          "text": "y",
+          "x": 90,
+          "y": 200,
+          "size": 32,
+          "bold": true,
+          "color": "#888888",
+          "from": 0.8
+        }
+      ]
+    },
+    {
+      "start": 35.0,
+      "end": 40.5,
+      "layers": [
+        {
+          "id": "s9_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que quan sát đường cong biến thành tiếp tuyến"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 40,
+              "angle": -0.04
+            },
+            {
+              "t": 1.5,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 5.498,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "PHÓNG TO VÔ HẠN LẦN:",
+          "x": 90,
+          "y": 80,
+          "size": 40,
+          "color": "#555555"
+        },
+        {
+          "type": "text",
+          "text": "ĐƯỜNG CONG BIẾN THÀNH ĐƯỜNG THẲNG!",
+          "x": 90,
+          "y": 130,
+          "size": 38,
+          "bold": true,
+          "color": "#1A73E8"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              100,
+              480
+            ],
+            [
+              500,
+              480
+            ]
+          ],
+          "color": "#888888",
+          "lineWidth": 3
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              100,
+              480
+            ],
+            [
+              100,
+              230
+            ]
+          ],
+          "color": "#888888",
+          "lineWidth": 3
+        },
+        {
+          "id": "s9_parabol",
+          "type": "line",
+          "points": [
+            [
+              100,
+              470
+            ],
+            [
+              180,
+              440
+            ],
+            [
+              260,
+              380
+            ],
+            [
+              340,
+              300
+            ],
+            [
+              420,
+              200
+            ]
+          ],
+          "color": "#1A73E8",
+          "lineWidth": 5,
+          "motion": {
+            "role": "information",
+            "reason": "Đường cong Parabol vẽ dần"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 1.5,
+              "progress": 1.0
+            },
+            {
+              "t": 5.498,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "id": "s9_tangent",
+          "type": "line",
+          "points": [
+            [
+              140,
+              490
+            ],
+            [
+              390,
+              220
+            ]
+          ],
+          "color": "#EC4338",
+          "lineWidth": 5,
+          "from": 1.8,
+          "motion": {
+            "role": "information",
+            "reason": "Đường tiếp tuyến xuất hiện và lắc nhẹ góc nghiêng"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0,
+              "angle": -0.06
+            },
+            {
+              "t": 1.0,
+              "progress": 1.0,
+              "angle": 0.04
+            },
+            {
+              "t": 3.7,
+              "progress": 1.0,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "TIẾP TUYẾN ĐỎ",
+          "x": 400,
+          "y": 210,
+          "size": 32,
+          "bold": true,
+          "color": "#EC4338",
+          "from": 2.2
+        }
+      ]
+    },
+    {
+      "start": 40.5,
+      "end": 46.0,
+      "layers": [
+        {
+          "id": "s10_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que tự tin khẳng định độ dốc"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 35,
+              "angle": 0.05
+            },
+            {
+              "t": 1.5,
+              "y": 20,
+              "angle": -0.05
+            },
+            {
+              "t": 5.498,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "ĐỘ DỐC TIẾP TUYẾN CHÍNH LÀ ĐẠO HÀM!",
+          "x": 90,
+          "y": 90,
+          "size": 42,
+          "bold": true,
+          "color": "#188038"
+        },
+        {
+          "id": "s10_board",
+          "type": "image",
+          "path": "formulas/shot4.png",
+          "x": 90,
+          "y": 180,
+          "w": 460,
+          "motion": {
+            "role": "information",
+            "reason": "Bảng phấn hệ số góc phóng to vào giữa"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "w": 380,
+              "angle": -0.05
+            },
+            {
+              "t": 1.0,
+              "w": 460,
+              "angle": 0.02
+            },
+            {
+              "t": 5.498,
+              "w": 460,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "id": "s10_arrow",
+          "type": "arrow",
+          "x": 100,
+          "y": 370,
+          "w": 380,
+          "color": "#1A73E8",
+          "from": 1.0,
+          "motion": {
+            "role": "information",
+            "reason": "Mũi tên xác nhận định lý"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 4.5,
+              "progress": 1.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "DỐC CÀNG NHIỀU -> ĐẠO HÀM CÀNG LỚN!",
+          "x": 90,
+          "y": 420,
+          "size": 36,
+          "bold": true,
+          "color": "#EC4338",
+          "from": 1.4
+        }
+      ]
+    },
+    {
+      "start": 46.0,
+      "end": 50.0,
+      "layers": [
+        {
+          "id": "s11_actor",
+          "type": "pose",
+          "pose": 0,
+          "x": 680,
+          "y": 35,
+          "w": 440,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que hướng dẫn 3 bước học chuẩn"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 40,
+              "angle": -0.04
+            },
+            {
+              "t": 1.5,
+              "y": 25,
+              "angle": 0.04
+            },
+            {
+              "t": 3.998,
+              "y": 35,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CÁCH HỌC CHUẨN: 3 BƯỚC VÀNG",
+          "x": 90,
+          "y": 90,
+          "size": 44,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "1. Hiểu tốc độ biến đổi tức thời",
+          "x": 100,
+          "y": 180,
+          "size": 38,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "2. Nhìn qua độ dốc tiếp tuyến",
+          "x": 100,
+          "y": 250,
+          "size": 38,
+          "color": "#1A73E8",
+          "from": 1.0
+        },
+        {
+          "type": "text",
+          "text": "3. Sau cùng mới áp dụng công thức!",
+          "x": 100,
+          "y": 320,
+          "size": 38,
+          "bold": true,
+          "color": "#188038",
+          "from": 2.0
+        },
+        {
+          "id": "s11_underline",
+          "type": "line",
+          "points": [
+            [
+              100,
+              375
+            ],
+            [
+              580,
+              375
+            ]
+          ],
+          "color": "#188038",
+          "lineWidth": 5,
+          "from": 2.2,
+          "motion": {
+            "role": "information",
+            "reason": "Gạch chân bước quan trọng nhất"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "progress": 0.0
+            },
+            {
+              "t": 0.8,
+              "progress": 1.0
+            },
+            {
+              "t": 1.7999999999999998,
+              "progress": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 50.0,
+      "end": 53.87,
+      "layers": [
+        {
+          "id": "s12_actor",
+          "type": "pose",
+          "pose": 1,
+          "x": 680,
+          "y": 30,
+          "w": 450,
+          "motion": {
+            "role": "actor",
+            "reason": "Người que ăn mừng thành quả học tập"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "y": 45,
+              "angle": -0.06
+            },
+            {
+              "t": 1.2,
+              "y": 20,
+              "angle": 0.06
+            },
+            {
+              "t": 3.868,
+              "y": 30,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "HIỂU BẢN CHẤT TRƯỚC,",
+          "x": 90,
+          "y": 100,
+          "size": 48,
+          "bold": true,
+          "color": "#1A1A1A"
+        },
+        {
+          "type": "text",
+          "text": "CÔNG THỨC TỰ KHẮC DỄ NHỚ!",
+          "x": 90,
+          "y": 170,
+          "size": 52,
+          "bold": true,
+          "color": "#188038"
+        },
+        {
+          "id": "s12_icon",
+          "type": "image",
+          "path": "@b1/open-source-crayon.png",
+          "x": 100,
+          "y": 260,
+          "w": 180,
+          "motion": {
+            "role": "prop",
+            "reason": "Biểu tượng thành công nảy nở"
+          },
+          "keys": [
+            {
+              "t": 0.0,
+              "w": 130,
+              "angle": -0.1
+            },
+            {
+              "t": 1.0,
+              "w": 190,
+              "angle": 0.08
+            },
+            {
+              "t": 3.868,
+              "w": 180,
+              "angle": 0.0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "CHÚC BẠN HỌC TỐT!",
+          "x": 310,
+          "y": 300,
+          "size": 44,
+          "bold": true,
+          "color": "#EC4338"
+        }
+      ]
+    }
+  ],
+  "sfx": [],
+  "reference_review": {
+    "author_id": "math_director",
+    "capability": {
+      "mode": "sample_target",
+      "environment": "math_explainer",
+      "limitations": []
+    }
+  }
+}

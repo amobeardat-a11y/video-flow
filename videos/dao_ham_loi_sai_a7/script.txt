@@ -1,0 +1,39 @@
+Thuộc bảng công thức, nhưng bài đạo hàm vẫn sai? Có thể bạn học thuộc nhiều hơn là hiểu. Cùng xem sáu lỗi thường gặp và cách sửa.
+
+Lỗi đầu tiên: xem đạo hàm như trò thay công thức. Thấy x bình phương, bạn lập tức viết hai x. Nhưng hai x đang nói gì trên đồ thị?
+
+Đạo hàm cho biết độ dốc tại một điểm. Đường cong càng dốc, độ lớn càng cao. Ở chỗ phẳng, độ dốc có thể bằng không.
+
+Khi học quy tắc, hãy vẽ một đồ thị đơn giản. Đoán chiều dốc trước khi tính ra kết quả. Cách đó giúp bạn nhận ra dấu sai nhanh hơn.
+
+Lỗi hai: lẫn giá trị hàm với giá trị đạo hàm. Với hàm x bình phương, thay ba được chín. Chín là độ cao, chưa phải độ dốc.
+
+Đạo hàm của x bình phương là hai x. Tại x bằng ba, độ dốc bằng sáu. Nhớ nhé: chín là vị trí, sáu là độ nghiêng.
+
+Muốn tìm đạo hàm tại điểm, làm hai bước. Trước tiên, tính đạo hàm tổng quát. Sau đó mới thay tọa độ điểm vào.
+
+Lỗi ba: giữ nguyên số mũ sau khi đạo hàm. X mũ ba không thành ba x mũ ba. Số mũ phải giảm đúng một đơn vị.
+
+Đưa số mũ xuống làm hệ số phía trước. Rồi giảm số mũ của x đi một. Vậy x mũ bốn cho ra bốn x mũ ba.
+
+Còn một trường hợp rất dễ quên. Đạo hàm của hằng số bảy là không. Đường thẳng ngang có độ dốc bằng không.
+
+Lỗi bốn: quên đạo hàm phần bên trong. Xét cả ngoặc hai x cộng một, mũ ba. Dừng ở ba nhân ngoặc bình phương là chưa đủ.
+
+Đặt u bằng hai x cộng một. Đạo hàm u mũ ba là ba u bình phương. Nhưng còn phải nhân thêm đạo hàm của u.
+
+Đạo hàm của u ở đây là hai. Vậy đáp án đúng có hệ số sáu. Đó chính là quy tắc dây chuyền.
+
+Mẹo nhớ: lớp ngoài trước, lớp trong sau. Nếu bên trong chỉ là x, hệ số là một. Nếu là hai x, đừng làm rơi số hai.
+
+Lỗi năm: nhân hai đạo hàm với nhau. Đây là một phép biến đổi sai phổ biến. Đạo hàm của tích cần hai hạng tử.
+
+Đạo hàm x bình phương nhân sin x sẽ là: Hai x nhân sin x, cộng x bình phương cos x. Đừng chỉ giữ một trong hai phần ấy.
+
+Lỗi sáu: tưởng đồ thị nào cũng có đạo hàm. Giá trị tuyệt đối có một góc nhọn. Tại x bằng không, hai phía dốc khác nhau.
+
+Bên trái dốc âm một, bên phải dốc dương một. Hai giới hạn không khớp, nên đạo hàm không tồn tại. Đừng áp dụng công thức tại điểm gãy.
+
+Trước khi chốt đáp án, tự hỏi bốn điều. Độ dốc có hợp lý? Quy tắc đã đúng? Đã thay đúng điểm, và hàm có khả vi?
+
+Chọn một bài cũ bạn từng làm sai. Soi lại bằng bốn câu hỏi vừa rồi. Hiểu bản chất giúp nhớ công thức lâu hơn.

@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:03,696
+Thuộc bảng công thức, nhưng bài đạo hàm vẫn sai?
+
+2
+00:00:03,766 --> 00:00:06,646
+Có thể bạn học thuộc nhiều hơn là hiểu.
+
+3
+00:00:06,716 --> 00:00:10,076
+Cùng xem sáu lỗi thường gặp và cách sửa.
+
+4
+00:00:10,196 --> 00:00:14,564
+Lỗi đầu tiên: xem đạo hàm như trò thay công thức.
+
+5
+00:00:14,634 --> 00:00:18,282
+Thấy x bình phương, bạn lập tức viết hai x.
+
+6
+00:00:18,352 --> 00:00:21,304
+Nhưng hai x đang nói gì trên đồ thị?
+
+7
+00:00:21,424 --> 00:00:24,592
+Đạo hàm cho biết độ dốc tại một điểm.
+
+8
+00:00:24,662 --> 00:00:28,190
+Đường cong càng dốc, độ lớn càng cao.
+
+9
+00:00:28,260 --> 00:00:31,668
+Ở chỗ phẳng, độ dốc có thể bằng không.
+
+10
+00:00:31,788 --> 00:00:35,916
+Khi học quy tắc, hãy vẽ một đồ thị đơn giản.
+
+11
+00:00:35,986 --> 00:00:39,298
+Đoán chiều dốc trước khi tính ra kết quả.
+
+12
+00:00:39,368 --> 00:00:42,728
+Cách đó giúp bạn nhận ra dấu sai nhanh hơn.
+
+13
+00:00:42,848 --> 00:00:47,192
+Lỗi hai: lẫn giá trị hàm với giá trị đạo hàm.
+
+14
+00:00:47,262 --> 00:00:50,718
+Với hàm x bình phương, thay ba được chín.
+
+15
+00:00:50,788 --> 00:00:53,644
+Chín là độ cao, chưa phải độ dốc.
+
+16
+00:00:53,764 --> 00:00:56,812
+Đạo hàm của x bình phương là hai x.
+
+17
+00:00:56,882 --> 00:01:00,386
+Tại x bằng ba, độ dốc bằng sáu.
+
+18
+00:01:00,456 --> 00:01:04,824
+Nhớ nhé: chín là vị trí, sáu là độ nghiêng.
+
+19
+00:01:04,944 --> 00:01:08,400
+Muốn tìm đạo hàm tại điểm, làm hai bước.
+
+20
+00:01:08,470 --> 00:01:11,398
+Trước tiên, tính đạo hàm tổng quát.
+
+21
+00:01:11,468 --> 00:01:14,228
+Sau đó mới thay tọa độ điểm vào.
+
+22
+00:01:14,348 --> 00:01:18,188
+Lỗi ba: giữ nguyên số mũ sau khi đạo hàm.
+
+23
+00:01:18,258 --> 00:01:21,402
+X mũ ba không thành ba x mũ ba.
+
+24
+00:01:21,472 --> 00:01:24,328
+Số mũ phải giảm đúng một đơn vị.
+
+25
+00:01:24,448 --> 00:01:27,472
+Đưa số mũ xuống làm hệ số phía trước.
+
+26
+00:01:27,542 --> 00:01:30,230
+Rồi giảm số mũ của x đi một.
+
+27
+00:01:30,300 --> 00:01:33,732
+Vậy x mũ bốn cho ra bốn x mũ ba.
+
+28
+00:01:33,852 --> 00:01:36,468
+Còn một trường hợp rất dễ quên.
+
+29
+00:01:36,538 --> 00:01:39,346
+Đạo hàm của hằng số bảy là không.
+
+30
+00:01:39,416 --> 00:01:42,248
+Đường thẳng ngang có độ dốc bằng không.
+
+31
+00:01:42,368 --> 00:01:45,656
+Lỗi bốn: quên đạo hàm phần bên trong.
+
+32
+00:01:45,726 --> 00:01:49,206
+Xét cả ngoặc hai x cộng một, mũ ba.
+
+33
+00:01:49,276 --> 00:01:52,492
+Dừng ở ba nhân ngoặc bình phương là chưa đủ.
+
+34
+00:01:52,612 --> 00:01:55,156
+Đặt u bằng hai x cộng một.
+
+35
+00:01:55,226 --> 00:01:58,634
+Đạo hàm u mũ ba là ba u bình phương.
+
+36
+00:01:58,704 --> 00:02:01,824
+Nhưng còn phải nhân thêm đạo hàm của u.
+
+37
+00:02:01,944 --> 00:02:04,656
+Đạo hàm của u ở đây là hai.
+
+38
+00:02:04,726 --> 00:02:07,534
+Vậy đáp án đúng có hệ số sáu.
+
+39
+00:02:07,604 --> 00:02:10,220
+Đó chính là quy tắc dây chuyền.
+
+40
+00:02:10,340 --> 00:02:14,060
+Mẹo nhớ: lớp ngoài trước, lớp trong sau.
+
+41
+00:02:14,130 --> 00:02:17,586
+Nếu bên trong chỉ là x, hệ số là một.
+
+42
+00:02:17,656 --> 00:02:20,848
+Nếu là hai x, đừng làm rơi số hai.
+
+43
+00:02:20,968 --> 00:02:24,064
+Lỗi năm: nhân hai đạo hàm với nhau.
+
+44
+00:02:24,134 --> 00:02:27,230
+Đây là một phép biến đổi sai phổ biến.
+
+45
+00:02:27,300 --> 00:02:30,204
+Đạo hàm của tích cần hai hạng tử.
+
+46
+00:02:30,324 --> 00:02:33,684
+Đạo hàm x bình phương nhân sin x sẽ là:
+
+47
+00:02:33,754 --> 00:02:38,218
+Hai x nhân sin x, cộng x bình phương cos x.
+
+48
+00:02:38,288 --> 00:02:40,976
+Đừng chỉ giữ một trong hai phần ấy.
+
+49
+00:02:41,096 --> 00:02:44,720
+Lỗi sáu: tưởng đồ thị nào cũng có đạo hàm.
+
+50
+00:02:44,790 --> 00:02:47,526
+Giá trị tuyệt đối có một góc nhọn.
+
+51
+00:02:47,596 --> 00:02:51,316
+Tại x bằng không, hai phía dốc khác nhau.
+
+52
+00:02:51,436 --> 00:02:55,348
+Bên trái dốc âm một, bên phải dốc dương một.
+
+53
+00:02:55,418 --> 00:02:59,858
+Hai giới hạn không khớp, nên đạo hàm không tồn tại.
+
+54
+00:02:59,928 --> 00:03:02,688
+Đừng áp dụng công thức tại điểm gãy.
+
+55
+00:03:02,808 --> 00:03:06,360
+Trước khi chốt đáp án, tự hỏi bốn điều.
+
+56
+00:03:06,430 --> 00:03:09,766
+Độ dốc có hợp lý? Quy tắc đã đúng?
+
+57
+00:03:09,836 --> 00:03:12,932
+Đã thay đúng điểm, và hàm có khả vi?
+
+58
+00:03:13,052 --> 00:03:15,956
+Chọn một bài cũ bạn từng làm sai.
+
+59
+00:03:16,026 --> 00:03:18,930
+Soi lại bằng bốn câu hỏi vừa rồi.
+
+60
+00:03:19,000 --> 00:03:22,168
+Hiểu bản chất giúp nhớ công thức lâu hơn.

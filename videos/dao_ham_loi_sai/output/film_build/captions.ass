@@ -1,0 +1,72 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Noto Sans,38,&H00FFFFFF,&H00FFFFFF,&H00202123,&H80000000,-1,0,0,0,100,100,0,0,1,3,1,2,35,35,42,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:03.70,Default,,0,0,0,,Thuộc bảng công thức, nhưng bài đạo hàm vẫn sai?
+Dialogue: 0,0:00:03.77,0:00:06.65,Default,,0,0,0,,Có thể bạn học thuộc nhiều hơn là hiểu.
+Dialogue: 0,0:00:06.72,0:00:10.08,Default,,0,0,0,,Cùng xem sáu lỗi thường gặp và cách sửa.
+Dialogue: 0,0:00:10.20,0:00:14.56,Default,,0,0,0,,Lỗi đầu tiên: xem đạo hàm như trò thay công thức.
+Dialogue: 0,0:00:14.63,0:00:18.28,Default,,0,0,0,,Thấy x bình phương, bạn lập tức viết hai x.
+Dialogue: 0,0:00:18.35,0:00:21.30,Default,,0,0,0,,Nhưng hai x đang nói gì trên đồ thị?
+Dialogue: 0,0:00:21.42,0:00:24.59,Default,,0,0,0,,Đạo hàm cho biết độ dốc tại một điểm.
+Dialogue: 0,0:00:24.66,0:00:28.19,Default,,0,0,0,,Đường cong càng dốc, độ lớn càng cao.
+Dialogue: 0,0:00:28.26,0:00:31.67,Default,,0,0,0,,Ở chỗ phẳng, độ dốc có thể bằng không.
+Dialogue: 0,0:00:31.79,0:00:35.92,Default,,0,0,0,,Khi học quy tắc, hãy vẽ một đồ thị đơn giản.
+Dialogue: 0,0:00:35.99,0:00:39.30,Default,,0,0,0,,Đoán chiều dốc trước khi tính ra kết quả.
+Dialogue: 0,0:00:39.37,0:00:42.73,Default,,0,0,0,,Cách đó giúp bạn nhận ra dấu sai nhanh hơn.
+Dialogue: 0,0:00:42.85,0:00:47.19,Default,,0,0,0,,Lỗi hai: lẫn giá trị hàm với giá trị đạo hàm.
+Dialogue: 0,0:00:47.26,0:00:50.72,Default,,0,0,0,,Với hàm x bình phương, thay ba được chín.
+Dialogue: 0,0:00:50.79,0:00:53.64,Default,,0,0,0,,Chín là độ cao, chưa phải độ dốc.
+Dialogue: 0,0:00:53.76,0:00:56.81,Default,,0,0,0,,Đạo hàm của x bình phương là hai x.
+Dialogue: 0,0:00:56.88,0:01:00.39,Default,,0,0,0,,Tại x bằng ba, độ dốc bằng sáu.
+Dialogue: 0,0:01:00.46,0:01:04.82,Default,,0,0,0,,Nhớ nhé: chín là vị trí, sáu là độ nghiêng.
+Dialogue: 0,0:01:04.94,0:01:08.40,Default,,0,0,0,,Muốn tìm đạo hàm tại điểm, làm hai bước.
+Dialogue: 0,0:01:08.47,0:01:11.40,Default,,0,0,0,,Trước tiên, tính đạo hàm tổng quát.
+Dialogue: 0,0:01:11.47,0:01:14.23,Default,,0,0,0,,Sau đó mới thay tọa độ điểm vào.
+Dialogue: 0,0:01:14.35,0:01:18.19,Default,,0,0,0,,Lỗi ba: giữ nguyên số mũ sau khi đạo hàm.
+Dialogue: 0,0:01:18.26,0:01:21.40,Default,,0,0,0,,X mũ ba không thành ba x mũ ba.
+Dialogue: 0,0:01:21.47,0:01:24.33,Default,,0,0,0,,Số mũ phải giảm đúng một đơn vị.
+Dialogue: 0,0:01:24.45,0:01:27.47,Default,,0,0,0,,Đưa số mũ xuống làm hệ số phía trước.
+Dialogue: 0,0:01:27.54,0:01:30.23,Default,,0,0,0,,Rồi giảm số mũ của x đi một.
+Dialogue: 0,0:01:30.30,0:01:33.73,Default,,0,0,0,,Vậy x mũ bốn cho ra bốn x mũ ba.
+Dialogue: 0,0:01:33.85,0:01:36.47,Default,,0,0,0,,Còn một trường hợp rất dễ quên.
+Dialogue: 0,0:01:36.54,0:01:39.35,Default,,0,0,0,,Đạo hàm của hằng số bảy là không.
+Dialogue: 0,0:01:39.42,0:01:42.25,Default,,0,0,0,,Đường thẳng ngang có độ dốc bằng không.
+Dialogue: 0,0:01:42.37,0:01:45.66,Default,,0,0,0,,Lỗi bốn: quên đạo hàm phần bên trong.
+Dialogue: 0,0:01:45.73,0:01:49.21,Default,,0,0,0,,Xét cả ngoặc hai x cộng một, mũ ba.
+Dialogue: 0,0:01:49.28,0:01:52.49,Default,,0,0,0,,Dừng ở ba nhân ngoặc bình phương là chưa đủ.
+Dialogue: 0,0:01:52.61,0:01:55.16,Default,,0,0,0,,Đặt u bằng hai x cộng một.
+Dialogue: 0,0:01:55.23,0:01:58.63,Default,,0,0,0,,Đạo hàm u mũ ba là ba u bình phương.
+Dialogue: 0,0:01:58.70,0:02:01.82,Default,,0,0,0,,Nhưng còn phải nhân thêm đạo hàm của u.
+Dialogue: 0,0:02:01.94,0:02:04.66,Default,,0,0,0,,Đạo hàm của u ở đây là hai.
+Dialogue: 0,0:02:04.73,0:02:07.53,Default,,0,0,0,,Vậy đáp án đúng có hệ số sáu.
+Dialogue: 0,0:02:07.60,0:02:10.22,Default,,0,0,0,,Đó chính là quy tắc dây chuyền.
+Dialogue: 0,0:02:10.34,0:02:14.06,Default,,0,0,0,,Mẹo nhớ: lớp ngoài trước, lớp trong sau.
+Dialogue: 0,0:02:14.13,0:02:17.59,Default,,0,0,0,,Nếu bên trong chỉ là x, hệ số là một.
+Dialogue: 0,0:02:17.66,0:02:20.85,Default,,0,0,0,,Nếu là hai x, đừng làm rơi số hai.
+Dialogue: 0,0:02:20.97,0:02:24.06,Default,,0,0,0,,Lỗi năm: nhân hai đạo hàm với nhau.
+Dialogue: 0,0:02:24.13,0:02:27.23,Default,,0,0,0,,Đây là một phép biến đổi sai phổ biến.
+Dialogue: 0,0:02:27.30,0:02:30.20,Default,,0,0,0,,Đạo hàm của tích cần hai hạng tử.
+Dialogue: 0,0:02:30.32,0:02:33.68,Default,,0,0,0,,Đạo hàm x bình phương nhân sin x sẽ là:
+Dialogue: 0,0:02:33.75,0:02:38.22,Default,,0,0,0,,Hai x nhân sin x, cộng x bình phương cos x.
+Dialogue: 0,0:02:38.29,0:02:40.98,Default,,0,0,0,,Đừng chỉ giữ một trong hai phần ấy.
+Dialogue: 0,0:02:41.10,0:02:44.72,Default,,0,0,0,,Lỗi sáu: tưởng đồ thị nào cũng có đạo hàm.
+Dialogue: 0,0:02:44.79,0:02:47.53,Default,,0,0,0,,Giá trị tuyệt đối có một góc nhọn.
+Dialogue: 0,0:02:47.60,0:02:51.32,Default,,0,0,0,,Tại x bằng không, hai phía dốc khác nhau.
+Dialogue: 0,0:02:51.44,0:02:55.35,Default,,0,0,0,,Bên trái dốc âm một, bên phải dốc dương một.
+Dialogue: 0,0:02:55.42,0:02:59.86,Default,,0,0,0,,Hai giới hạn không khớp, nên đạo hàm không tồn tại.
+Dialogue: 0,0:02:59.93,0:03:02.69,Default,,0,0,0,,Đừng áp dụng công thức tại điểm gãy.
+Dialogue: 0,0:03:02.81,0:03:06.36,Default,,0,0,0,,Trước khi chốt đáp án, tự hỏi bốn điều.
+Dialogue: 0,0:03:06.43,0:03:09.77,Default,,0,0,0,,Độ dốc có hợp lý? Quy tắc đã đúng?
+Dialogue: 0,0:03:09.84,0:03:12.93,Default,,0,0,0,,Đã thay đúng điểm, và hàm có khả vi?
+Dialogue: 0,0:03:13.05,0:03:15.96,Default,,0,0,0,,Chọn một bài cũ bạn từng làm sai.
+Dialogue: 0,0:03:16.03,0:03:18.93,Default,,0,0,0,,Soi lại bằng bốn câu hỏi vừa rồi.
+Dialogue: 0,0:03:19.00,0:03:22.17,Default,,0,0,0,,Hiểu bản chất giúp nhớ công thức lâu hơn.
